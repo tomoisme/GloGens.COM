@@ -1,0 +1,14 @@
+languageCode = "id-ID"
+categories = "category"
+tags = "tag"
+theme = "farmite"
+
+[languages]
+    [languages.id]
+        contentDir = "content/indonesia"
+        baseURL = "https://www.glogens.com/dev/id"
+        weight = 2
+    [languages.en]
+        contentDir = "content/english"
+        baseURL = ""
+        weight = 1

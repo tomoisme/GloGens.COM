@@ -3,14 +3,31 @@
     <nav id="navigation1" class="navigation">
         <div class="nav-header">
             <a class="nav-logo" href="{{ .Site.BaseURL }}">
-                <img src="{{ .Site.BaseURL }}/img/master/glogens-logo-light.png" class="white-logo" alt="">
-                <img src="{{ .Site.BaseURL }}/img/master/glogens-logo-dark.png" class="dark-logo" alt="">
+                <img src="{{ .Site.BaseURL }}/img/master/logo-glogens-light.png" class="white-logo" alt="">
+                <img src="{{ .Site.BaseURL }}/img/master/logo-glogens-dark.png" class="dark-logo" alt="">
             </a>
             <div class="nav-toggle"></div>
         </div>
         <div class="nav-menus-wrapper">
             <ul class="nav-menu align-to-right">
                 <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+                <li><a href="{{ .Site.BaseURL }}/#">Products</a>
+                    <ul class="nav-dropdown">
+                        <li>
+                            <a href="{{ .Site.BaseURL }}/glogens-micro-carbon-fertilizer/">
+                                GLOGENS® Organic Micro-Carbon Fertilizer
+                            </a>
+                        </li>
+                        <li><a href="{{ .Site.BaseURL }}/glogens-plant-and-fruit-nutrients/">GLOGENS® Plant &amp; Fruit
+                                Nutrients</a></li>
+                        <li><a href="{{ .Site.BaseURL }}/glogens-livestock-nutrients/">GLOGENS® Livestock
+                                Nutrients</a></li>
+                        <li><a href="{{ .Site.BaseURL }}/glogens-fisheries-nutrients">GLOGENS® Fisheries
+                            Nutrients</a></li>
+                        <li><a href="{{ .Site.BaseURL }}/glogens-poultry-nutrients/">GLOGENS® Poultry
+                                Nutrients</a></li>
+                    </ul>
+                </li>
                 <li><a href="{{ .Site.BaseURL }}/#">About Us</a>
                     <ul class="nav-dropdown">
                         <li>
@@ -27,23 +44,6 @@
                         </li>
                         <li><a href="{{ .Site.BaseURL }}/#">Core Values</a>
                         </li>
-                    </ul>
-                </li>
-                <li><a href="{{ .Site.BaseURL }}/#">Products</a>
-                    <ul class="nav-dropdown">
-                        <li>
-                            <a href="{{ .Site.BaseURL }}/glogens-micro-carbon-fertilizer/">
-                                GLOGENS® Organic Micro-Carbon Fertilizer
-                            </a>
-                        </li>
-                        <li><a href="{{ .Site.BaseURL }}/glogens-plant-and-fruit-nutrients/">GLOGENS® Plant &amp; Fruit
-                                Nutrients</a></li>
-                        <li><a href="{{ .Site.BaseURL }}/glogens-livestock-nutrients/">GLOGENS® Livestock
-                                Nutrients</a></li>
-                        <li><a href="{{ .Site.BaseURL }}/glogens-fisheries-nutrients">GLOGENS® Fisheries
-                            Nutrients</a></li>
-                        <li><a href="{{ .Site.BaseURL }}/glogens-poultry-nutrients/">GLOGENS® Poultry
-                                Nutrients</a></li>
                     </ul>
                 </li>
                 <li><a href="{{ .Site.BaseURL }}/contact-us">Contact Us</a></li>

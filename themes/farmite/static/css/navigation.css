@@ -638,8 +638,9 @@ body{
   text-decoration: none;
   float: left;
   font-size: 13px;
-  color: #70798b;
-  background-color: #fdfdfd;
+  /* color: #70798b; */
+  color: #333;
+  background:rgba(255, 255, 255, 0.85);
   -webkit-transition: color 0.3s, background 0.3s;
   transition: color 0.3s, background 0.3s;
     position: relative;
@@ -649,6 +650,7 @@ body{
 .nav-dropdown > li:hover > a,
 .nav-dropdown > li.focus > a {
   color: #EEC344;
+  background: #FFF;
 }
 
 .nav-dropdown.nav-dropdown-left {

@@ -10,6 +10,6 @@ theme = "farmite"
         weight = 2
     [languages.en]
         contentDir = "content/english"
-        baseURL = "https://www.glogens.com/dev"
-        # baseURL = ""
+        # baseURL = "https://www.glogens.com/dev"
+        baseURL = ""
         weight = 1

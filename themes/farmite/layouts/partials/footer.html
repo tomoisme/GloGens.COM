@@ -71,7 +71,9 @@
   $("#navigation1").fixed();
 </script>
 
-{{ if eq .Kind "home" }}
+{{ partial "analytics" . }}
+
+{{ if .IsHome }}
 <!-- REVOLUTION JS FILES -->
 <script src="{{ .Site.BaseURL }}/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script src="{{ .Site.BaseURL }}/revolution/js/jquery.themepunch.revolution.min.js"></script>
@@ -89,7 +91,5 @@
 <script src="{{ .Site.BaseURL }}/js/rev-slider.js"></script>
 {{ end }}
 
-<!-- GOOGLE ANALITYCS  -->
 </body>
-
 </html>
